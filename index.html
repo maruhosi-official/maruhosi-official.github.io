@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>MRHS. | ブランド運営会社</title>
+<meta name="description" content="MRHS.は、アパレルブランド「MOTiON.」と「Mmood.」を中心に、デザインの力でものづくりを届けるブランド運営会社です。">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700;900&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="mrhs-mockup.css">
+</head>
+<body>
+
+<!--
+  Page map for future GitHub Pages split (currently one scrollable mockup):
+    #instagram  -> instagram.html  (Instagram)
+    #topics     -> topics.html     (お知らせ / or fold into index.html)
+    #business   -> business.html   (事業内容)
+    #about      -> about.html      (会社紹介)
+    #contact    -> contact.html    (お問い合わせ)
+  Each <section> below is written to be lifted into its own page with
+  minimal changes — the .c-section-label / .l-section pattern repeats.
+-->
+
+<header class="c-header">
+  <div class="c-header__inner">
+    <a href="#top" class="c-header__logo">MRHS.</a>
+
+    <nav class="c-header__nav" id="primary-nav">
+      <ul class="c-header__nav-list">
+        <li><a class="c-header__nav-link" href="#instagram">INSTAGRAM</a></li>
+        <li><a class="c-header__nav-link" href="#topics">TOPICS</a></li>
+        <li><a class="c-header__nav-link" href="#business">BUSINESS</a></li>
+        <li><a class="c-header__nav-link" href="#about">ABOUT</a></li>
+        <li><a class="c-header__nav-link" href="#contact">CONTACT</a></li>
+      </ul>
+    </nav>
+
+    <button class="c-header__toggle" id="navToggle" aria-label="メニューを開く" aria-controls="primary-nav" aria-expanded="false">
+      <span class="c-header__toggle-bar"></span>
+      <span class="c-header__toggle-bar"></span>
+      <span class="c-header__toggle-bar"></span>
+    </button>
+  </div>
+</header>
+
+<main id="top">
+
+  <!-- ===== Hero (index.html) ===== -->
+  <section class="c-hero" aria-label="Intro">
+    <div class="c-hero__content">
+      <div class="c-hero__logo-wrap">
+        <span class="c-hero__logotype" aria-hidden="true">MRHS.</span>
+        <img class="c-hero__bg-logo" src="mrhs-logo-bg.png" alt="" aria-hidden="true">
+      </div>
+      <p class="c-hero__copy-sub">from Japan,kyoto, 2025</p>
+      <div class="c-hero__copy">
+        <h1 class="c-hero__copy-main">全てに優しくありたい、<br>行動し続けたい<span class="c-hero__copy-main-soft">丸くなるな、星になれ</span></h1>
+        <p class="c-hero__copy-signature">Apparel and other items.<br>#MOTiON. #Mmood.<br>Project by #MRHS.<br>All we need is love.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Instagram (instagram.html) ===== -->
+  <!--
+    Instagram placeholder grid.
+    Live post pull-in requires Instagram Graph API app review, so this
+    mockup ships a static placeholder grid instead. If you send over the
+    actual post URLs later, each tile can be swapped for an official
+    oEmbed embed (blockquote + embed.js) or a real thumbnail image.
+  -->
+  <section class="l-section" id="instagram" aria-labelledby="instagram-label">
+    <span class="c-section-label" id="instagram-label">INSTAGRAM</span>
+
+    <div class="c-instagram__accounts">
+      <a class="c-instagram__account" href="https://www.instagram.com/mrhs.jp/?hl=ja" target="_blank" rel="noopener">
+        MOTiON. をInstagramで見る <span class="c-instagram__account-arrow">→</span>
+      </a>
+      <a class="c-instagram__account" href="https://www.instagram.com/mmood_mrhs.official/?hl=ja" target="_blank" rel="noopener">
+        Mmood. をInstagramで見る <span class="c-instagram__account-arrow">→</span>
+      </a>
+    </div>
+
+    <div class="c-instagram__grid" aria-hidden="true">
+      <div class="c-instagram__tile"></div>
+      <div class="c-instagram__tile"></div>
+      <div class="c-instagram__tile"></div>
+      <div class="c-instagram__tile"></div>
+      <div class="c-instagram__tile"></div>
+      <div class="c-instagram__tile"></div>
+      <div class="c-instagram__tile"></div>
+      <div class="c-instagram__tile"></div>
+      <div class="c-instagram__tile"></div>
+    </div>
+  </section>
+
+  <!-- ===== Topics (topics.html) ===== -->
+  <!-- ダミーのお知らせです。実際のお知らせが決まり次第、この3件を差し替えてください。 -->
+  <section class="l-section" id="topics" aria-labelledby="topics-label">
+    <span class="c-section-label" id="topics-label">TOPICS</span>
+
+    <ul class="c-topics__list">
+      <li class="c-topics__item">
+        <span class="c-topics__date">2026.08.20</span>
+        <span class="c-topics__title">オンラインストアをリニューアルしました</span>
+      </li>
+      <li class="c-topics__item">
+        <span class="c-topics__date">2026.07.15</span>
+        <span class="c-topics__title">新しい商品ライン、いま企画中です</span>
+      </li>
+      <li class="c-topics__item">
+        <span class="c-topics__date">2026.06.01</span>
+        <span class="c-topics__title">Coconalaでデザインサービス、はじめました</span>
+      </li>
+    </ul>
+  </section>
+
+  <!-- ===== Business (business.html) ===== -->
+  <section class="l-section" id="business" aria-labelledby="business-label">
+    <span class="c-section-label" id="business-label">BUSINESS</span>
+
+    <ul class="c-business__list">
+      <li class="c-business__item">
+        <span class="c-business__name">MOTiON.</span>
+        <div class="c-business__body">
+          <p class="c-business__desc">アパレルブランド。丁寧なものづくりを大切にしたアイテムを展開しています。</p>
+          <a class="c-business__link" href="https://mrhsofficial.base.shop/" target="_blank" rel="noopener">
+            BASEストアを見る <span class="c-business__link-arrow">→</span>
+          </a>
+        </div>
+      </li>
+
+      <li class="c-business__item">
+        <span class="c-business__name">Mmood.</span>
+        <div class="c-business__body">
+          <p class="c-business__desc">オリジナルデザインのアイテムを扱うブランド。Kyotoから世界へ、デザインの力でものづくりをしています。</p>
+          <a class="c-business__link" href="https://maruhosi.official.ec" target="_blank" rel="noopener">
+            BASEストアを見る <span class="c-business__link-arrow">→</span>
+          </a>
+        </div>
+      </li>
+
+      <li class="c-business__item">
+        <span class="c-business__name">Coconala<br>デザインサービス</span>
+        <div class="c-business__body">
+          <p class="c-business__desc">文字デザイン・タイポグラフィ制作を出品中。3,000円〜、ご相談に応じて制作いたします。</p>
+          <a class="c-business__link" href="https://coconala.com/users/5602705?ref=service_main_column" target="_blank" rel="noopener">
+            サービスを見る <span class="c-business__link-arrow">→</span>
+          </a>
+        </div>
+      </li>
+    </ul>
+  </section>
+
+  <!-- ===== About (about.html) ===== -->
+  <section class="l-section" id="about" aria-labelledby="about-label">
+    <span class="c-section-label" id="about-label">ABOUT</span>
+    <p class="c-about__text">
+      MRHS.は、アパレルブランド<strong>「MOTiON.」</strong>と<strong>「Mmood.」</strong>を中心に、デザインの力でものづくりを届けるブランド運営会社です。企画・デザインから販売までを一貫して手がけ、コンテンツごとに異なる世界観を丁寧に作り込むことを大切にしています。
+    </p>
+    <p class="c-about__text">
+      <strong>MOTiON.</strong>は、着る人の日常に寄り添う、シンプルで心地よいアパレルを届けることを大切にしています。
+    </p>
+    <p class="c-about__text">
+      <strong>Mmood.</strong>は、Japan, Kyotoから世界へ、デザインの力でものづくりを届けることを大切にしています。
+    </p>
+    <p class="c-about__text">
+      あわせて、文字デザイン・タイポグラフィ制作のデザインサービスも提供しています。
+    </p>
+  </section>
+
+  <!-- ===== Contact (contact.html) ===== -->
+  <!-- お問い合わせ方法は未確定のため仮表示。本番公開までにフォームや正式な連絡先を確定する -->
+  <section class="l-section" id="contact" aria-labelledby="contact-label">
+    <span class="c-section-label" id="contact-label">CONTACT</span>
+    <p class="c-contact__lead">お問い合わせフォームは準備中です。</p>
+    <p class="c-contact__lead">Coming soon.</p>
+    <p class="c-contact__note">※ お問い合わせ方法は現在検討中です。本番公開までに確定します。</p>
+  </section>
+
+</main>
+
+<footer class="c-footer">
+  <ul class="c-footer__sns">
+    <li class="c-footer__sns-item"><a class="c-footer__sns-link" href="https://www.instagram.com/mrhs.jp" target="_blank" rel="noopener">Instagram (MOTiON.)</a></li>
+    <li class="c-footer__sns-item"><a class="c-footer__sns-link" href="https://www.instagram.com/mmood_mrhs.official" target="_blank" rel="noopener">Instagram (Mmood.)</a></li>
+    <li class="c-footer__sns-item"><a class="c-footer__sns-link" href="https://www.threads.com/@mrhs.jp" target="_blank" rel="noopener">Threads</a></li>
+    <li class="c-footer__sns-item"><a class="c-footer__sns-link" href="https://x.com/mrhsofficial" target="_blank" rel="noopener">X</a></li>
+    <li class="c-footer__sns-item"><a class="c-footer__sns-link" href="https://www.pinterest.com/maruhosiofficial" target="_blank" rel="noopener">Pinterest</a></li>
+  </ul>
+  <p class="c-footer__copyright">&copy; 2026 MRHS.</p>
+</footer>
+
+<script src="mrhs-mockup.js"></script>
+
+</body>
+</html>
